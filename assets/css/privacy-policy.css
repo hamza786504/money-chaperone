@@ -1,0 +1,13 @@
+.site-footer {
+    background: #444;
+    color: #fff;
+}
+
+body {
+    font-family: 'Lato', serif !important;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+h3{font-size: 23px;}

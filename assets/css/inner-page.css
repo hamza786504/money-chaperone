@@ -1,0 +1,384 @@
+@media (min-width: 1200px){
+  .container {
+    max-width: 1230px;
+  }
+}
+
+body {
+  font-family: 'Lato', serif !important;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.4;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+h3 {
+    font-size: 23px;
+}
+/* Heeader */
+.site-header {
+  padding: .6em 0 .6em;
+}
+
+img.site-logo {
+  max-height: 40px;
+}
+
+.white-title h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  margin: .2em auto;
+  font-size: 1.3em;
+  margin-top: 12px;
+}
+.black-title{
+  text-align: center;
+}
+
+.black-title h2{
+  font-size: 1.4em;
+  text-transform: none;
+}
+
+/* Sub Header */
+.form-sub-header {
+    padding: 1em 0;
+    position: relative;
+}
+.form-sub-header h3{
+  text-align: center;
+  text-shadow: 1px 0 rgba(255,255,255,.5), -1px 0 rgba(255,255,255,.5), 0 1px rgba(255,255,255,.5), 0 -1px rgba(255,255,255,.5);
+  font-size: 1em;
+  font-weight: 800;
+}
+.form-sub-header:before {
+  content: '';
+  display: block;
+  border: solid 12px transparent;
+  border-top-width: 6px;
+  border-bottom-width: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.form-sub-header:before {
+  border-top-color: #0d668e;
+}
+
+
+/* Main Form Section */
+.main-form-section {
+  background-image: linear-gradient(rgba(51, 51, 95, 0), rgba(51, 51, 95, 0)), 
+  url(../images/eim-hero.jpg) !important;
+  padding: 15px;
+}
+
+.main-form-block{
+  min-height: 500px;
+}
+.main-form-block {
+  max-width: 600px;
+  min-height: 600px;
+  margin: 0px auto !important;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 5px 24px 0 #212121 !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  position: relative;
+  -webkit-box-shadow: 0 5px 24px 0 #000;
+  box-shadow: 0 5px 24px 0 #000;
+  border-radius: 14px;
+}
+
+/* benefits */
+.process-sec {
+  color: #222;
+  padding-bottom: 1.2em;
+}
+.process-sec h2 {
+  padding: 2em 0 1.5em 0;
+}
+
+.process-sec h2.heading-title {
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.process-single-img {
+  height: 130px;
+  padding: 30px 10px 10px 10px;
+}
+
+.process-single-body {
+  padding: 15px;
+}
+
+.process-single-body h3 {
+  font-size: 1.2em;
+  margin: 0 0 .6em;
+  text-align: center;
+}
+
+.process-single .card {
+  min-height: 400px;
+}
+
+.process-single-body p {
+  font-size: .85em;
+  text-align: center;
+}
+
+/* How Does it Work? */
+section.we_can_help-sec {
+  padding: 16em 2em 4em 2em;
+  margin-top: -14em;
+}
+
+.we_can_help-sec div.separator {
+    float: left;
+    margin-top: 10%;
+    min-width: 7.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-top: 2px solid white;
+}
+
+@media only screen and (max-width: 992px){
+  .we_can_help-sec div.separator {
+    display: none;
+  }
+}
+
+.we_can_help-img {
+    margin-bottom: 30px;
+}
+
+.we_can_help-body {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.process-single-no {
+    padding: .6em;
+    margin: 0 auto;
+    font-size: 26px;
+    color: #fff;
+}
+
+section.we_can_help-sec .white-title{
+    color: white;
+    margin: 0 0 1.8em 0;
+}
+
+/* Award Section */
+.awards-sec {
+  background: #fff;
+}
+
+
+.block-group {
+  list-style-type: none;
+  padding: 0;
+  margin: -2px -6px;
+  margin: 0 auto;
+  width: 100%;
+}
+.block-group:before {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.awards-sec ul {
+  padding: 2em 0 0 0;
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.awards-sec ul li {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 1em;
+  margin-left: 20px;
+  float: none;
+  vertical-align: top;
+}
+
+.awards-sec ul li.awards-01 {
+  width: 120px;
+  height: 40px;
+  margin-left: 0;
+}
+.awards-sec ul li.awards-02 {
+  width: 112px;
+  height: 50px;
+}
+
+.awards-sec ul li.awards-03 {
+  width: 80px;
+  height: 45px;
+}
+.awards-sec ul li.awards-04 {
+  width: 70px;
+  height: 50px;
+}
+.awards-sec ul li.awards-05 {
+  width: 44px;
+  height: 45px;
+}
+.awards-sec ul li.awards-06 {
+  width: 44px;
+  height: 45px;
+}
+.awards-sec ul li.awards-07 {
+  width: 60px;
+  height: 45px;
+}
+.awards-sec ul li.awards-08 {
+  width: 40px;
+  height: 50px;
+}
+
+.awards-sec ul li img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  vertical-align: bottom;
+}
+
+
+@media only screen and (min-width: 992px){
+  .awards-sec ul li {
+    margin-left: 30px;
+  }
+}
+
+/* Site Footer */
+.site-footer .hr-line {
+  width: 100%;
+  padding: 1em 0;
+  border-bottom: 0.1em solid #1395ba;
+}
+
+.site-footer {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.footer-parts {
+  margin: 2em 0;
+}
+
+  @media only screen and (max-width:575px){
+    .process-single-body p {
+      font-size: 15px;
+    }
+    .footer-parts {
+      padding: 20px 15px 10px 15px;
+      font-size: 14px;
+      margin: 0px;
+    }
+    .footer-parts h3 {
+      font-size: 20px;
+    }
+    .site-header .white-title h1 {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+
+
+
+/* 
+  =======================================================
+        Color Settings 
+  =======================================================
+*/
+
+  /* Header Background*/
+  .site-header {
+    background-image: linear-gradient(120deg, #1C1466 0%, #00B0B2 100%);
+  }
+
+  /* Sub header Background*/
+  .form-sub-header {
+    background: #f0f8ff;
+  }
+  
+  /* How Does it Work? Background*/
+  .process-sec {
+    background: #f8f8f8;
+  }
+  
+  /* Title Text Color */
+  .black-title h2 {
+    color: #33335F;
+  }
+  
+  /* How Does it Work - Single Block */
+  .process-single-body h3 {
+    color: #fba100;
+  }
+
+  /* How We Can Help */
+  section.we_can_help-sec {
+    background-image: linear-gradient(120deg, #1C1466 0%, #00B0B2 100%);
+  }
+  
+  /* Award Section */
+  .awards-sec{    
+    background: #fff;
+  }
+  
+  /* Horigontal Line */
+  .site-footer .hr-line {
+    border-bottom: 0.1em solid #1395ba;
+  }
+  
+  /* Footer Background */
+  .site-footer {
+    background: #fff;
+  }
+  
+  /* Footer Link Color */
+  .site-footer a {
+    color: #8c8c8c;
+  }
+
+
+
+  @media screen and (max-width : 450px){
+    .site-header {
+      padding: 0.1em !important;
+      max-height: 75px !important;
+    }
+    .white-title h1{
+      margin: 3px auto !important;
+    }
+    .form-sub-header{
+      height: 50px;
+      padding: 0 !important;
+    }
+    .main-form-section{
+      padding: 9px 8px !important;
+      height: calc(100vh - 125px);
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+    }
+    .main-form-section .container{
+      height: 100% !important;
+    }
+    .main-form-block{
+      min-height: 100% !important;
+    }
+  }
